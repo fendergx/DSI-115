@@ -8,14 +8,12 @@ class DorisController extends Controller
 {
     //
     public function index(){
-
-    	$users = [
-    		'Doris',
-    		'Carlos',
-    		'Irene',
-    		'Paola',
-    		'William',
-    	];
+        if (request()->has('empty')){
+            $users=[];
+            //uso http://localhost:8000/usuarios?empty
+        }else{
+            $users = ['Doris','Carlos','Irene','Paola','William'];
+        }
 
         $title = 'Listado de usuario';
 

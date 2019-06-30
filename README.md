@@ -2,9 +2,9 @@
 
 # Comandos PARA LARAVEL
 Para correr servidor <br>
-<i>php artisan serve</i><br>
+<div class="highlight highlight-source-shell"><pre>php artisan serve</pre></div>
 Para migrar a base de datos <br>
-<i>php artisan migrate</i><br>
+<div class="highlight highlight-source-shell"><pre>php artisan migrate</pre></div>
 Para regresar la migracion <br>
 <i>php artisan migrate:reset</i><br>
 Para actualizar sin estar regresando migraciones <br>

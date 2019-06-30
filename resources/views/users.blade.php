@@ -6,7 +6,7 @@
 <body>
 <h1>{{ $title}}</h1>
 <hr>	
-
+<!-- tambien se puede usar // @ unless(empty($users))-->
 @if (! 	empty($users))
 <ul>
 	@foreach ($users as $user)

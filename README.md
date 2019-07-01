@@ -11,6 +11,8 @@ Para agregar una modificaciones a las migraciones <br>
 <div class="highlight highlight-source-shell"><pre>$ php artisan make:migration nombre_migracion</pre></div>
 Para actualizar sin estar regresando migraciones <br>
 <div class="highlight highlight-source-shell"><pre>$ php artisan migrate:refresh</pre></div>
+Para modificar tablas sin borrar datos <br>
+<div class="highlight highlight-source-shell"><pre>$ php artisan migrate:rollback</pre></div>
 <hr>
 
 ## ARCHIVOS Y CARPETAS IMPORTANTES

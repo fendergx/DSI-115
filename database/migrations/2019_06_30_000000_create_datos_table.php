@@ -15,10 +15,11 @@ class CreateDatosTable extends Migration
     {
         Schema::create('datos', function (Blueprint $table) {
             $table->bigIncrements('idDato');
-            $table->string('nombre');
-            $table->string('apellido');
+            $table->string('nombre',25);
+            $table->string('apellido',25);
             $table->string('correo')->unique();
             $table->integer('numero');
+            $table->string('descripcion',200)->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

@@ -7,6 +7,8 @@ Para migrar a base de datos <br>
 <div class="highlight highlight-source-shell"><pre>$ php artisan migrate</pre></div>
 Para regresar la migracion <br>
 <div class="highlight highlight-source-shell"><pre>$ php artisan migrate:reset</pre></div>
+Para agregar una modificaciones a las migraciones <br>
+<div class="highlight highlight-source-shell"><pre>$ php artisan make:migration nombre_migracion</pre></div>
 Para actualizar sin estar regresando migraciones <br>
 <div class="highlight highlight-source-shell"><pre>$ php artisan migrate:refresh</pre></div>
 <hr>
